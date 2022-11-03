@@ -6,6 +6,10 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
+html,body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 ul{
     list-style: none;
 }
@@ -38,6 +42,35 @@ ul{
 
 .navbar li{
     margin: 0 15px;
-    font-weight: bold;
-    
+    font-weight: bold;  
+}
+
+.box{
+    margin-bottom: 30px;
+
+}
+
+section{
+    display: flex;   
+}
+
+.photo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.time{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-size: 16px;
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
 }
