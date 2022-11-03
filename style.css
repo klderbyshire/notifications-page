@@ -55,8 +55,8 @@ section{
 }
 
 .photo{
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -70,7 +70,6 @@ section{
 .text{
     font-size: 16px;
     max-width: 500px;
-    text-align: center;
     justify-self: center;
     padding: 20px 0;
 }
