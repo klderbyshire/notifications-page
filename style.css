@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
 
-body{
-    list-style: none;
-}
-
-
 .attribution { 
     font-size: 11px; text-align: center; }
     
 .attribution a { 
     color: hsl(228, 45%, 44%); }
+
+ul{
+    list-style: none;
+}
 
 
 .navbar-container{
@@ -27,12 +26,18 @@ body{
 
 .navbar-nav-left{
     /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
     margin-left: 20px;
 }
 
 .navbar ul{
     display: flex;
-    align-items: center;
-    list-style: none;
+    align-items: center;   
+}
 
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+    
 }
