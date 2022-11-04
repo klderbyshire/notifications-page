@@ -1,114 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Notifications page</title>
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-
-  
-</head>
-<body>
-  <nav class="navbar">
-    <div class="navbar-container">
-      <ul class="navbar-nav-left">
-        <li>
-          <h2>Notifications</h2>
-        </li>
-        <li>
-          <h2>3</h2>
-        </li>
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <ul class="navbar-nav-left">
+          <li>
+            <h2>Notifications</h2>
+          </li>
+          <li>
+            <h2>3</h2>
+          </li>
         </ul>
         <ul class="navbar-nav-right">
-        <li>
-          <a href="#">Mark all as read</a>
-        </li>
+          <li>
+            <a href="#">Mark all as read</a>
+          </li>
         </ul>
-    </div>
-  </nav>
-  
-  <section class="box box-a">
-    <div class="photo">
-    <img src="assets/images/avatar-mark-webber.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Mark Webber</b> reacted to your recent post My first tournament today!</p>
-    <div class="time"><p>1m ago</p></div>
-    </div>
-  </section>
+      </div>
+    </nav>
 
-  <section class="box box-b">
-    <div class="photo">
-    <img src="assets/images/avatar-angela-gray.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Angela Gray</b> followed you</p>
-    <div class="time">5m ago</div>
-    </div> 
-  </section>
+    <section class="box box-a">
+      <div class="photo">
+        <img src="assets/images/avatar-mark-webber.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p>
+          <b>Mark Webber</b> reacted to your recent post My first tournament
+          today!
+        </p>
+        <div class="time"><p>1m ago</p></div>
+      </div>
+    </section>
 
-  <section class="box-c">
-    <div class="photo">
-      <img src="assets/images/avatar-jacob-thompson.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Jacob Thompson</b>has joined your group Chess Club</p>
-    <div class="time">1 day ago</div>
-    </div>
-    
-  </section>
+    <section class="box box-b">
+      <div class="photo">
+        <img src="assets/images/avatar-angela-gray.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p><b>Angela Gray</b> followed you</p>
+        <div class="time">5m ago</div>
+      </div>
+    </section>
 
-  <section class="box-d">
-    <div class="photo">
-    <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Rizky Hasanuddin</b>sent you a private message</p>
-    <div class="time">5 days ago</div>
-    <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
-    I'm already having lots of fun and improving my game.</p>
-    </div>  
-  </section>
+    <section class="box-c">
+      <div class="photo">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p><b>Jacob Thompson</b>has joined your group Chess Club</p>
+        <div class="time">1 day ago</div>
+      </div>
+    </section>
 
-  <section class="box-e">
-    <div class="photo">
-      <img src="assets/images/avatar-kimberly-smith.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Kimberly Smith</b>commented on your picture</p>
-    <div class="time">1 week ago</div>
-    </div>  
-  </section>
+    <section class="box-d">
+      <div class="photo">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p><b>Rizky Hasanuddin</b> sent you a private message</p>
+        <div class="time">5 days ago</div>
+        <p class="message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </div>
+    </section>
 
-  <section class="box-f">
-    <div class="photo">
-      <img src="assets/images/avatar-nathan-peterson.webp" alt="image">
-    </div>
-    <div class="text">
-    <p><b>Nathan Peterson</b>reacted to your recent post 5 end-game strategies to increase your win rate</p>
-    <div class="time">2 weeks ago</div>
-    </div>
-    
-  </section>
+    <section class="box-e">
+      <div class="photo">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p><b>Kimberly Smith</b> commented on your picture</p>
 
-  <section class="box-g">
-    <div class="photo">
-      <img src="assets/images/avatar-anna-kim.webp" alt="image">
+        <div class="time">1 week ago</div>
+      </div>
+      <div class="commented-image">
+        <img src="assets/images/image-chess.webp" alt="commented-image" />
+      </div>
+    </section>
+
+    <section class="box-f">
+      <div class="photo">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p>
+          <b>Nathan Peterson</b> reacted to your recent post 5 end-game
+          strategies to increase your win rate
+        </p>
+        <div class="time">2 weeks ago</div>
+      </div>
+    </section>
+
+    <section class="box-g">
+      <div class="photo">
+        <img src="assets/images/avatar-anna-kim.webp" alt="image" />
+      </div>
+      <div class="text">
+        <p><b>Anna Kim</b> left the group Chess Club</p>
+        <div class="time">2 weeks ago</div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Elena Sparshott and Karen Derbyshire</a>.
     </div>
-    <div class="text">
-    <p><b>Anna Kim</b>left the group Chess Club</p>
-    <div class="time">2 weeks ago</div>
-    </div>
-    
-  </section>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Elena Sparshott and Karen Derbyshire</a>.
-  </div>
-</body>
+  </body>
 </html>

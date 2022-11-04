@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
 
+:root {
+    --colour-primary: hsl(1, 90%, 64%);
+    --colour-secondary: hsl(219, 85%, 26%)
+    --colour-white: hsl(0, 0%, 100%);
+    --colour-very-light-grayish-blue: hsl(210, 60%, 98%);
+    --colour-Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --colour-Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --colour-Grayish-blue: hsl(219, 14%, 63%);
+    --colour-Dark-grayish-blue: hsl(219, 12%, 42%);
+    --colour-Very-dark-blue: hsl(224, 21%, 14%);
+
+}
+
+
 .attribution { 
     font-size: 11px; text-align: center; }
     
@@ -52,6 +66,7 @@ ul{
 
 section{
     display: flex;   
+   
 }
 
 .photo{
@@ -60,6 +75,11 @@ section{
     padding-left: 6rem;
     padding-right: 6rem;
 }
+
+.commented-image {
+    margin: 15px;
+}
+
 
 .time{
     display: flex;
@@ -73,3 +93,20 @@ section{
     justify-self: center;
     padding: 20px 0;
 }
+
+.message {
+    border: 2px solid var(--colour-Grayish-blue);
+    padding: 15px;
+}
+
+@media (min-width: 1440px) {
+    .section {
+      max-width: 1440px;
+      margin-right: auto;
+      margin-left: auto;
+    }}
+
+    @media (max-width: 960px) {
+        .text {
+          font-size: 30px;
+        }}
